@@ -1,0 +1,19 @@
+package com.pedromassango.androidadvancedregisterloginui
+
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+
+/**
+ * Created by Pedro Massango on 7/20/18.
+ */
+class SignUpFragment : Fragment() {
+
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+        val v = inflater.inflate(R.layout.signup_fragment, container, false)
+
+        return v
+    }
+}
