@@ -8,4 +8,4 @@ Android Advanced Register/Login design concept
 
 ### This is what we reach
 
-<img src="/screenshots/login.png" width="480" height="720"> <img src="/screenshots/register.png" width="480" height="720">
+<img src="/screenshots/login.png" width="280" height="720"> <img src="/screenshots/register.png" width="280" height="720">
