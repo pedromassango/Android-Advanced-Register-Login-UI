@@ -13,12 +13,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.activity_main)
 
 
-        view_1.touchables.forEach {
-            it.setOnClickListener(this@MainActivity)
-        }
+        btnLogin.setOnClickListener(this@MainActivity)
+        btnSignup.setOnClickListener(this@MainActivity)
 
         // default fragment
-        onClick( findViewById(R.id.btnLogin))
+        btnLogin.callOnClick()
     }
 
     override fun onClick(clickedView: View?) {

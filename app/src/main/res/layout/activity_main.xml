@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/gradient"
     tools:context=".MainActivity">
 
 
     <LinearLayout
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:id="@+id/view_1"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
         <TextView
             android:id="@+id/btnLogin"
             android:text="Login"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:background="@drawable/button_background_selected"
             android:textColor="@color/white"
             android:layout_width="90dp"
@@ -29,7 +29,7 @@
 
         <TextView
             android:id="@+id/btnSignup"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:text="Sign Up"
             android:background="@drawable/button_background"
             android:textColor="@color/white"
@@ -39,9 +39,8 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_marginTop="155dp"
-        android:layout_marginBottom="110dp"
-        android:background="@color/colorAccent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
         android:layout_toEndOf="@id/view_1"
         android:layout_toRightOf="@id/view_1"
         android:layout_width="match_parent"
